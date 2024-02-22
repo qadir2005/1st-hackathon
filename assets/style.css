@@ -186,5 +186,317 @@
     width: 40%;
     top: 45%;
     right: 8%;
-    bottom: ;
+
+}
+
+/* --------- Styling of second of  ----------- */
+.second_section {
+    background-color: #F9F6F0;
+    width: 100%;
+    height: auto;
+}
+
+.second_section .carts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: none;
+    gap: 10px;
+    margin-top: 130px;
+}
+
+.second_section .carts .cart {
+    width: 260px;
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 100px 0;
+}
+
+.cart_image {
+    height: 80px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.second_section .carts .cart .cart_image img {
+    margin-left: 35%;
+    width: 100%;
+}
+
+.second_section .carts .cart img.plate {
+    margin-left: 1%;
+}
+
+.second_section .carts .cart h3 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #0D1216;
+    margin-bottom: 20px;
+}
+
+.second_section .carts .cart p {
+    color: #787878;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin: 0px 20px;
+    margin-bottom: 70px;
+}
+
+.bg-yellow {
+    height: 120px;
+    width: 100%;
+    background-color: #FF8D29;
+    margin-top: 100px;
+}
+
+.bg-yellow img {
+    width: 90%;
+    position: relative;
+    top: -150px;
+}
+
+/* Styling of third section */
+.third_sectioin {
+    background-image: url(https://rj-burgers.netlify.app/assets/images/hero-bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    position: relative;
+}
+
+.third_sectioin .left {
+    width: 50%;
+    text-align: start;
+
+}
+
+.third_sectioin .left h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.third_sectioin .left h1 span {
+    color: #FF8D29;
+}
+
+.third_sectioin .left p {
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.third_sectioin .left button {
+    background-color: #FF8D29;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 140px;
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+.third_sectioin .left button:hover {
+    background-color: black;
+}
+
+.third_sectioin .right {
+    width: 50%;
+    overflow: hidden
+}
+
+.third_sectioin .right img {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    width: 50%;
+}
+
+.third_sectioin .right img.discount {
+    width: 15%;
+    right: 30%;
+    top: 5px;
+    animation: scale 1s linear infinite alternate;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* ------- Styling of last section -------- */
+.last_section {
+    background-color: #F9F6F0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.text {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.last_section .Latest {
+    color: #F42F25;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-top: 120px;
+}
+
+.last_section h2 {
+    font-size: 40px;
+    font-weight: 650;
+}
+
+.last_section h2 span {
+    color: #FF8D29;
+}
+
+.last_section p.simple {
+    color: #787878;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.inform {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    text-align: start;
+    padding: 30px 30px;
+    width: 100%;
+
+}
+
+.inform-card {
+    background-color: white;
+    width: 400px;
+    overflow: hidden;
+    padding: 30px 20px;
+
+}
+
+.inform-card img {
+    transition-duration: 0.3s;
+}
+
+.inform-card img:hover {
+    transform: scale(1.1);
+}
+
+.inform-card img {
+    width: 100%;
+
+}
+
+.date {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.date span {
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.date span i {
+    color: #FF8D29;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.inform h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.inform p {
+    color: #787878;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.inform a {
+    color: rgb(26, 25, 25);
+    font-weight: 600;
+    font-size: 12px;
+    transition-duration: 0.3s;
+}
+
+.inform a:hover {
+    color: #FF8D29;
+}
+
+/* -------- Styling of Footer -------------- */
+footer {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: white;
+    width: 100%;
+    background-image: url(https://rj-burgers.netlify.app/assets/images/footer-illustration.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+footer .name h1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+footer .name .social-media span a i {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    transition-duration: 0;
+    background-color: #FF8D29;
+}
+
+.social-media span a {
+    color: white;
+}
+
+
+footer div {
+    width: 250px;
+}
+
+footer .name h1 span a {
+    color: #FF8D29;
+}
+
+footer div p {
+    color: #787878;
+    line-height: 26px;
+    font-size: 16px;
+    margin-top: 10px;
 }
