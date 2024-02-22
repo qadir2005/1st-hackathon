@@ -1,42 +1,54 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Gallery</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <style>
-    /* Additional CSS styles if needed */
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavorz - create by Abdul Qadir</title>
+    <!-- -------------- css link -------------- -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- ------------- Font links --------------- -->
+    <link href='https://fonts.googleapis.com/css?family=Shadows Into Light' rel='stylesheet'>
 </head>
 
 <body>
-  <h1>Ths is my new code jo ukharna ha ukharlo</h1>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <img src="./1.jpg" class="img-fluid" alt="Image 1">
-      </div>
-      <div class="col-md-4">
-        <img src="./3.jpg" class="img-fluid" alt="Image 2">
-      </div>
-      <div class="col-md-4">
-        <img src="./4.jpg" class="img-fluid" alt="Image 3">
-      </div>
+    <!-- ------------ Structure of Header Tag -------------- -->
+    <header class="header">
+        <div class="container">
+            <h1>Flavorz <span>.</span></h1>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <button>Reservation</button>
+            </div>
+        </div>
+    </header>
+    <div class="line"></div>
+    <!-- ----------- Sturcture of Background Image ----------------- -->
+    <div class="background_section">
+        <img src="https://rj-burgers.netlify.app/assets/images/hero-bg.jpg" alt="" class="bg-image">
+        <div class="bg-content">
+            <div class="container">
+                <div class="left">
+                    <p class="first-para">Eat Sleep And</p>
+                    <h2>Supper delicious Burger in town!</h2>
+                    <p class="scnd-para">Food is any substance consumed to provide nutritional support for an organism.
+                    </p>
+                    <button>Book A Table</button>
+                </div>
+                <div class="right">
+                    <img src="https://rj-burgers.netlify.app/assets/images/hero-bg-shape.png" class="burger-2">
+                    <img src="https://rj-burgers.netlify.app/assets/images/hero-banner-bg.png" class="burger-3">
+                    <img src="https://rj-burgers.netlify.app/assets/images/hero-banner.png" class="main_burger">
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <img src="./6.jpg" class="img-fluid" alt="Image 4">
-      </div>
-      <div class="col-md-4">
-        <img src="./5.jpg" class="img-fluid" alt="Image 5">
-      </div>
-      <div class="col-md-4">
-        <img src="./4.jpg" class="img-fluid" alt="Image 6">
-      </div>
-    </div>
-  </div>
 </body>
 
 </html>

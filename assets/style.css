@@ -1,0 +1,190 @@
+/* -------- Universal css ---------- */
+::selection {
+    background-color: #FF8D29;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    list-style: noe;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+/* -------------- Styling of Line ----------- */
+.line {
+    width: 100%;
+    height: 0.5px;
+    background-color: white;
+}
+
+/* ------ Styling for Header ------- */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.header .container {
+    color: #F1D6C6;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: white;
+    border: none;
+    height: 90px;
+    width: 100%;
+    padding: 0 5%;
+    position: relative;
+}
+
+.header h1 {
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+    font-size: 900;
+}
+
+.header h1 span {
+    color: #FF8D29;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    margin-right: 2vw;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: black;
+    font-weight: 600;
+    transition-duration: 0.4s;
+    font-size: 15px;
+}
+
+.navbar ul li a:hover {
+    color: #FF8D29;
+}
+
+.navbar button {
+    background-color: #FF8D29;
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 150px;
+    height: 45px;
+    margin-left: 50px;
+    transition-duration: 0.3s;
+}
+
+.navbar button:hover {
+    background-color: black;
+}
+
+/* ------------- Styling of background Section --------------- */
+.background_section {
+    width: 100%;
+    /* position: absolute; */
+}
+
+.background_section .bg-image {
+    position: absolute;
+    top: 0;
+    height: 120vh;
+    z-index: -1;
+    width: 100%;
+}
+
+.bg-content .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-content .left {
+    color: white;
+    text-align: start;
+    width: 50%;
+    padding: 10% 0;
+
+}
+
+.bg-content .left p.first-para {
+    color: #FF8D29;
+    font-family: "Shadows Into Light";
+    font-size: 30px;
+    margin-bottom: 1.8rem;
+}
+
+.bg-content .left h2 {
+    font-size: 60px;
+    color: #F1D6C6;
+    line-height: 70px;
+}
+
+.bg-content .left p.scnd-para {
+    font-size: 18px;
+    color: #F1D6C6;
+    margin-top: 1.8rem;
+    line-height: 30px;
+    margin-bottom: 1.8rem;
+    width: 85%;
+}
+
+.bg-content button {
+    border: none;
+    background-color: #FF8D29;
+    color: white;
+    width: 170px;
+    height: 45px;
+    transition: all 0.4s ease;
+    font-weight: 600;
+}
+
+.bg-content button:hover {
+    background-color: white;
+    color: black;
+}
+
+.bg-content .container .right {
+    width: 50%;
+}
+
+.bg-content .container .right .burger-2 {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    width: 73.5vw;
+    padding-top: 2%;
+}
+
+.bg-content .container .right .burger-3 {
+    position: absolute;
+    z-index: 5;
+    width: 50%;
+    top: 30%;
+}
+
+.bg-content .container .right .main_burger {
+    position: absolute;
+    z-index: 10;
+    width: 40%;
+    top: 45%;
+    right: 8%;
+    bottom: ;
+}
