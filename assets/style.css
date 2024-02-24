@@ -164,6 +164,16 @@
     width: 50%;
 }
 
+/* .bg-content .container .right::before {
+    content: url("https://rj-burgers.netlify.app/assets/images/hero-bg-shape.png");
+    height: 1500px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+} */
+
 .bg-content .container .right .burger-2 {
     position: absolute;
     top: 10%;
@@ -455,8 +465,13 @@
 
 /* -------- Styling of Footer -------------- */
 footer {
-    padding-top: 80px;
-    padding-bottom: 100px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: hii;
+}
+
+.footer {
+    height: 650px;
     background-color: white;
     width: 100%;
     background-image: url(https://rj-burgers.netlify.app/assets/images/footer-illustration.png);
@@ -464,16 +479,17 @@ footer {
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 15px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
 }
 
-footer .name h1 {
+.footer .name h1 {
     font-size: 30px;
     font-weight: 900;
 }
 
-footer .name .social-media span a i {
+.footer .name .social-media span a i {
     padding: 10px;
     margin-top: 20px;
     font-size: 20px;
@@ -486,17 +502,127 @@ footer .name .social-media span a i {
 }
 
 
-footer div {
+.footer div {
     width: 250px;
 }
 
-footer .name h1 span a {
+.footer .name h1 span a {
     color: #FF8D29;
 }
 
-footer div p {
+.footer div p {
     color: #787878;
     line-height: 26px;
     font-size: 16px;
     margin-top: 10px;
+}
+
+form {
+
+    border: 2px solid #EDEDED;
+    padding: 10px 5px;
+    width: 350px;
+}
+
+form input {
+    width: 140px;
+    margin: 10px;
+    border: 2px solid #EDEDED;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    font-size: 16px;
+    color: #989595;
+    width: 91%;
+    border: 2px solid #EDEDED;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+form h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+form button {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: #FF8D29;
+    color: white;
+    border: none;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 44px;
+    margin-left: 20px;
+    transition-duration: 0.4s;
+}
+
+form button:hover {
+    background-color: black;
+}
+
+.position {
+    position: relative;
+    top: 0px;
+    background-color: white;
+}
+
+footer .cyecle img {
+    width: 150px;
+}
+
+
+footer .cyecle {
+    animation: move 10s ease-in 2s normal infinite;
+    position: relative;
+    z-index: 6;
+    bottom: 127px;
+    height: 0px;
+}
+
+@keyframes move {
+    from {
+
+        left: -150px;
+
+    }
+
+
+    to {
+
+        left: 91%;
+    }
+}
+
+.copyright {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #989595;
+}
+
+.copyright p {
+    text-align: center;
+    color: #968c8c;
+}
+
+.copyright p a {
+    margin: 0 6px;
+    /* font-weight: bold; */
+    transition-duration: 0.3s;
+    color: #787878;
+}
+
+.copyright p a:hover {
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+    text-decoration: underline;
 }
