@@ -26,6 +26,10 @@
     margin: auto;
 }
 
+.header {
+    box-sizing: border-box;
+}
+
 .header .container {
     color: #F1D6C6;
     display: flex;
@@ -91,6 +95,10 @@
     transition-duration: 0.3s;
 }
 
+i.fa-bars {
+    display: none;
+}
+
 .navbar button:hover {
     background-color: black;
 }
@@ -104,7 +112,7 @@
 .background_section .bg-image {
     position: absolute;
     top: 0;
-    height: 120vh;
+    /* height: 120vh; */
     z-index: -1;
     width: 100%;
 }
@@ -214,6 +222,7 @@
     border: none;
     gap: 10px;
     margin-top: 130px;
+    padding: 100px 0px;
 }
 
 .second_section .carts .cart {
@@ -223,7 +232,7 @@
     text-align: center;
     flex-direction: column;
     background-color: white;
-    margin: 100px 0;
+    margin: 20px 0;
 }
 
 .cart_image {
@@ -403,7 +412,7 @@
 
 .inform-card {
     background-color: white;
-    width: 400px;
+    width: 380px;
     overflow: hidden;
     padding: 30px 20px;
 
@@ -579,7 +588,7 @@ footer .cyecle img {
 
 
 footer .cyecle {
-    animation: move 10s ease-in 2s normal infinite;
+    animation: move 20s ease-in 2s normal infinite;
     position: relative;
     z-index: 6;
     bottom: 127px;
